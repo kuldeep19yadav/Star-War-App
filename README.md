@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Star Wars App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that displays Star Wars characters fetched from the [SWAPI](https://swapi.dev/) API.  
+Users can browse characters and view detailed information such as name, birth year, homeworld, and films.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ⚙️ How to Run the Project
 
-### `npm start`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kuldeep19yadav/Star-War-App.git
+   cd Star-War-App
+   
+2. Install dependencies:
+bash
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Start the development server:
+bash
+npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5.Open your browser(e.g., chrome) at:
+http://localhost:3000
 
-### `npm test`
+🧩 What I Implemented
+Fetched data dynamically from the Star Wars API (SWAPI).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Displayed all characters in a clean card layout.
 
-### `npm run build`
+Added modal to show detailed info (name, height, mass, date).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive design using Tailwind CSS.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Loading state and error handling for API calls.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🎁 Bonus Features:
 
-### `npm run eject`
+Combined searching and filtering (Homeworld or film).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📝 Note
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Currently, the search and filter features work only on the characters displayed on the current page, not across all pages.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⚖️ Trade-offs / Design Choices
+API Calls: Chose direct API fetch from SWAPI instead of caching for simplicity and real-time updates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+UI Framework: Used Tailwind CSS for faster styling and consistency instead of custom CSS from scratch.
 
-## Learn More
+Modal Design: Kept lightweight modal logic inside component for speed — avoided external libraries.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Error Handling: Simple try-catch with minimal fallback UI for maintainability over complexity.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💻 Author
+Kuldeep Yadav
+https://github.com/kuldeep19yadav/Star-War-App
