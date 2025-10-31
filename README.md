@@ -44,6 +44,8 @@ Combined searching and filtering (Homeworld or film).
 
 Currently, the search and filter features work only on the characters displayed on the current page, not across all pages.
 
+Many cards do not have distinct background beacuse many species are null and have same url.
+
 
 ## ⚖️ Trade-offs / Design Choices
 API Calls: Chose direct API fetch from SWAPI instead of caching for simplicity and real-time updates.
