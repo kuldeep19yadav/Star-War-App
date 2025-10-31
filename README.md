@@ -24,7 +24,7 @@ npm start
 http://localhost:3000
 
 
-🧩 What I Implemented
+## 🧩 What I Implemented
 Fetched data dynamically from the Star Wars API (SWAPI).
 
 Displayed all characters in a clean card layout.
@@ -36,16 +36,16 @@ Responsive design using Tailwind CSS.
 Loading state and error handling for API calls.
 
 
-🎁 Bonus Features:
+## 🎁 Bonus Features:
 
 Combined searching and filtering (Homeworld or film).
 
-📝 Note
+## 📝 Note
 
 Currently, the search and filter features work only on the characters displayed on the current page, not across all pages.
 
 
-⚖️ Trade-offs / Design Choices
+## ⚖️ Trade-offs / Design Choices
 API Calls: Chose direct API fetch from SWAPI instead of caching for simplicity and real-time updates.
 
 UI Framework: Used Tailwind CSS for faster styling and consistency instead of custom CSS from scratch.
@@ -67,6 +67,6 @@ Error Handling: Simple try-catch with minimal fallback UI for maintainability ov
 ![Search and Filter](./screenshots/search-filter.png)
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 Kuldeep Yadav
 https://github.com/kuldeep19yadav/Star-War-App
