@@ -13,15 +13,16 @@ Users can browse characters and view detailed information such as name, birth ye
    cd Star-War-App
    
 2. Install dependencies:
-bash
+bash: 
 npm install
 
-4. Start the development server:
-bash
+3. Start the development server:
+bash: 
 npm start
 
-5.Open your browser(e.g., chrome) at:
+4.Open your browser(e.g., chrome) at: 
 http://localhost:3000
+
 
 🧩 What I Implemented
 Fetched data dynamically from the Star Wars API (SWAPI).
@@ -34,6 +35,7 @@ Responsive design using Tailwind CSS.
 
 Loading state and error handling for API calls.
 
+
 🎁 Bonus Features:
 
 Combined searching and filtering (Homeworld or film).
@@ -41,6 +43,7 @@ Combined searching and filtering (Homeworld or film).
 📝 Note
 
 Currently, the search and filter features work only on the characters displayed on the current page, not across all pages.
+
 
 ⚖️ Trade-offs / Design Choices
 API Calls: Chose direct API fetch from SWAPI instead of caching for simplicity and real-time updates.
@@ -50,6 +53,7 @@ UI Framework: Used Tailwind CSS for faster styling and consistency instead of cu
 Modal Design: Kept lightweight modal logic inside component for speed — avoided external libraries.
 
 Error Handling: Simple try-catch with minimal fallback UI for maintainability over complexity.
+
 
 ### 📸 Screenshots
 
