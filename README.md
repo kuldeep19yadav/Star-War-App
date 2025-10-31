@@ -51,6 +51,18 @@ Modal Design: Kept lightweight modal logic inside component for speed — avoide
 
 Error Handling: Simple try-catch with minimal fallback UI for maintainability over complexity.
 
+### 📸 Screenshots
+
+#### Home Page  
+![Home Page](./screenshots/home.png)
+
+#### Character Details Modal  
+![Character Details Modal](./screenshots/modal.png)
+
+#### Search and Filter in Action  
+![Search and Filter](./screenshots/search-filter.png)
+
+
 👨‍💻 Author
 Kuldeep Yadav
 https://github.com/kuldeep19yadav/Star-War-App
